@@ -76,7 +76,7 @@ export function DashboardMockup() {
       <div>
         <div className="flex items-center gap-2 mb-4">
           <CheckCircle2 className="w-4 h-4 text-[rgb(var(--pastel-peach))]" />
-          <h3 className="text-sm font-semibold text-[rgb(var(--foreground))]">Today&apos;s Tasks</h3>
+          <h3 className="text-sm font-semibold text-[rgb(var(--foreground))]">{'Today\'s'} Tasks</h3>
         </div>
         <div className="space-y-2">
           {tasks.map((task, index) => (
