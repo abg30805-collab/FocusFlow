@@ -477,7 +477,7 @@ export default function HomePage() {
               What Our Users Say
             </h2>
             <p className="text-lg text-[rgb(var(--muted-foreground))] max-w-2xl mx-auto">
-              Don't just take our word for it - hear from our community
+              Don&apos;t just take our word for it - hear from our community
             </p>
           </div>
         </SlideUp>
@@ -492,7 +492,7 @@ export default function HomePage() {
                   ))}
                 </div>
                 <p className="text-[rgb(var(--foreground))] mb-4 italic">
-                  "{testimonial.quote}"
+                  &quot;{testimonial.quote}&quot;
                 </p>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-[rgb(var(--primary))] flex items-center justify-center text-white font-bold">

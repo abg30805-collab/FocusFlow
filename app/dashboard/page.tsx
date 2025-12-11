@@ -61,7 +61,7 @@ export default function DashboardPage() {
                   Getting Started with FocusFlow
                 </h3>
                 <p className="text-[rgb(var(--muted-foreground))] leading-relaxed mb-4">
-                  Welcome to your learning dashboard! Start by adding your first interest. You can organize them into categories, track your progress, and visualize your learning journey. Use the "Add Interest" button to begin documenting the skills and topics you want to explore.
+                  Welcome to your learning dashboard! Start by adding your first interest. You can organize them into categories, track your progress, and visualize your learning journey. Use the &quot;Add Interest&quot; button to begin documenting the skills and topics you want to explore.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-3 mt-4">
                   <div className="flex items-start gap-2 text-sm">
@@ -104,7 +104,7 @@ export default function DashboardPage() {
                       Quick Tip
                     </h3>
                     <p className="text-sm text-[rgb(var(--muted-foreground))] leading-relaxed">
-                      Regularly update your progress percentages to maintain motivation and see how far you've come. The visual progress indicators help you stay focused on your learning goals.
+                      Regularly update your progress percentages to maintain motivation and see how far you&apos;ve come. The visual progress indicators help you stay focused on your learning goals.
                     </p>
                   </div>
                 </div>

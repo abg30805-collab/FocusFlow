@@ -89,7 +89,7 @@ export default function AboutPage() {
                 FocusFlow is designed for ambitious, multi-passionate individuals who want to manage all of their interests without feeling overwhelmed. With the help of AI, you can generate structured, personalized learning pathways that track your progress and guide you toward mastering new skills. Each pathway can be customized to fit your schedule, time constraints, and goals FocusFlow adapts to your calendar, not the other way around.
               </p>
               <p className="text-lg leading-relaxed">
-                As you grow, your pathways grow with you. They update dynamically based on your progress, ensuring you're always moving with clarity and purpose. You can organize your interests using broad categories like exercise, mental health, creativity, career, and more, keeping your learning journey streamlined and intentional.
+                As you grow, your pathways grow with you. They update dynamically based on your progress, ensuring you&apos;re always moving with clarity and purpose. You can organize your interests using broad categories like exercise, mental health, creativity, career, and more, keeping your learning journey streamlined and intentional.
               </p>
               <p className="text-lg leading-relaxed">
                 To help you stay balanced, FocusFlow lets you schedule which pathways you want to prioritize at any given time. Whether your focus shifts daily or seasonally, FocusFlow shifts with you.
@@ -122,7 +122,7 @@ export default function AboutPage() {
                 Abel realized he had more passions than he knew how to manage, and he often struggled to balance them all. The motivation was there, and the ideas were flowing, but knowing where to start and how to progress felt overwhelming. These challenges became the direct inspiration for FocusFlow.
               </p>
               <p className="text-lg leading-relaxed">
-                What began as a personal solution has grown into a tool designed to help others overcome the same obstacles. Abel's goal is to make learning less daunting and more accessible, giving everyone the chance to pursue the skills they've always wanted but never knew how to begin.
+                What began as a personal solution has grown into a tool designed to help others overcome the same obstacles. Abel&apos;s goal is to make learning less daunting and more accessible, giving everyone the chance to pursue the skills they&apos;ve always wanted but never knew how to begin.
               </p>
             </div>
           </div>
