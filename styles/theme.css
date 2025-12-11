@@ -1,0 +1,82 @@
+:root {
+  /* Color Palette - Calm, modern, productivity-focused */
+  --background: 250 249 247; /* #FAF9F7 warm off-white */
+  --foreground: 45 45 50;
+  
+  --primary: 72 187 180; /* Muted teal */
+  --primary-foreground: 255 255 255;
+  
+  --secondary: 255 255 255;
+  --secondary-foreground: 45 45 50;
+  
+  --accent: 180 200 220;
+  --accent-foreground: 30 30 40;
+  
+  --muted: 245 245 243;
+  --muted-foreground: 100 100 110;
+  
+  /* Pastel accent colors */
+  --pastel-teal: 144 224 216; /* Muted teal */
+  --pastel-lavender: 200 180 220; /* Soft lavender */
+  --pastel-peach: 255 218 185; /* Subtle peach */
+  --pastel-pink: 255 192 203; /* Soft pink */
+  --pastel-blue: 173 216 230; /* Light blue */
+  --pastel-orange: 255 218 185; /* Pastel orange (using peach) */
+  
+  /* Light shadows - no harsh contrast */
+  --shadow-light: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-medium: 0 4px 12px rgba(0, 0, 0, 0.06);
+  --shadow-hover: 0 6px 16px rgba(0, 0, 0, 0.08);
+  
+  /* Spacing System */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+  
+  /* Font Sizes */
+  --font-xs: 0.75rem;
+  --font-sm: 0.875rem;
+  --font-base: 1rem;
+  --font-lg: 1.125rem;
+  --font-xl: 1.25rem;
+  --font-2xl: 1.5rem;
+  --font-3xl: 2rem;
+  
+  /* Border Radius - 12-16px range */
+  --radius-sm: 0.5rem; /* 8px */
+  --radius-md: 0.875rem; /* 14px */
+  --radius-lg: 1rem; /* 16px */
+  --radius-xl: 1.25rem; /* 20px */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+}
+
+/* Utility Classes */
+.shadow-light {
+  box-shadow: var(--shadow-light);
+}
+
+.shadow-medium {
+  box-shadow: var(--shadow-medium);
+}
+
+.shadow-hover:hover {
+  box-shadow: var(--shadow-hover);
+  transition: box-shadow 0.2s ease;
+}
